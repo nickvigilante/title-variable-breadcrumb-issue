@@ -1,0 +1,12 @@
+---
+title: "This should say bar: {{< var foo >}}"
+description: "This should also say bar: {{< var foo >}}"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+{{< meta title >}}
+
+{{< meta description >}}

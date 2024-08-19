@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "title-variable-breadcrumb-issue"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:
+    - contents:
+      - section: "index"
+        contents:
+          - href: index.qmd
+      - section: "about"
+        contents:
+          - href: about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
